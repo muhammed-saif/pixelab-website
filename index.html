@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelab</title>
+    <menu name="author" content="Muhammed Saif">
+    <meta name="description" content="Pixelab is a digital agency that specializes in creating innovative and effective digital solutions for businesses of all sizes.">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+    <header class="w-full px-12 my-5 max-sm:px-6">
+        <nav class="lg:w-5xl md:w-4xl xs:w-full mx-auto flex justify-evenly max-w-full max-lg:flex-wrap ">
+            <div class="w-1/3 max-lg:w-1/2">
+                <!-- logo -->
+                <a  href="#" class="w-60 h-12"><img class="object-cover hover:cursor-pointer" src="./assets/Logo.png" alt=""></a>
+            </div>
+            <!-- menu toggle (small devices only) -->
+            <button id="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="nav-menu nav-auth" aria-expanded="false" class="hidden max-md:flex max-md:ml-auto items-center justify-center size-12 text-black hover:text-orange-600 transition-colors cursor-pointer">
+                <svg class="size-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+                <svg class="size-7 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+            </button>
+            <div id="nav-menu" data-nav-panel class="w-1/3 max-lg:w-full max-lg:order-last max-md:hidden">
+                <!-- menu -->
+                <ul class="flex justify-center space-x-5 leading-12 text-black font-medium font-poppins text-lg max-md:flex-col max-md:items-center max-md:space-x-0">
+                    <li><a href="#" class="hover:text-orange-600 transition-colors">Home</a></li>
+                    <li><a href="#" class="hover:text-orange-600 transition-colors">About Us</a></li>
+                    <li><a href="#" class="hover:text-orange-600 transition-colors">Our App</a></li>
+                    <li><a href="#" class="hover:text-orange-600 transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            <!-- registration  -->
+            <div id="nav-auth" data-nav-panel class="w-1/3 leading-12 max-lg:w-1/2 max-md:w-full max-md:order-last max-md:hidden max-md:pb-2">
+                <duv class="float-end space-x-4 font-medium font-poppins font-lg max-md:float-none max-md:block max-md:text-center">
+                    <button class="text-black hover:text-orange-600 transition-colors">Log In</button>
+                    <button class="w-30 h-full bg-orange-500 hover:bg-orange-600 text-white rounded-xl hover:cursor-pointer">Sign Up</button>
+                </duv>
+            </div>
+        </nav>
+    </header>
+    <!-- hero section -->
+    <section class="w-ful">
+        <div class="w-5xl mx-auto flex  mt-15 max-w-full max-lg:px-6 max-md:flex-col">
+            <div class="w-6/12 max-md:w-full">
+                <h1 class="text-5xl leading-12 font-black text-black font-poppins max-lg:text-4xl max-lg:leading-10 max-sm:text-3xl max-sm:leading-9">We boost<br>
+                growth for your <br> statup busines</h1>
+                <p class="text-lg leading-5 font-medium text-black font-poppins mt-6">Our goal is top at the heart of creativity services industry as a digital creator. In has a after comment</p>
+                <div class="my-5 space-x-7 flex max-sm:space-x-0 max-sm:gap-4">
+                    <button class="w-[162px] h-[48px] cursor-pointer bg-orange-500 text-white rounded-lg hover:bg-orange-600">Get Started</button>
+                    <button class="w-[162px] h-[48px] flex flex-row leading-12 cursor-pointer hover:scale-105 transition-transform duration-300"><img class="object-cover mr-3" src="./assets/learn-more-icon.png" alt="Learn More">Learn More</button>
+                </div>
+            </div>
+            <div class="w-6/12 max-md:w-full max-md:mt-6">
+                <img src="./assets/hero-banner.png" alt="Hero Image" class="w-full h-full -mt-6 object-cover max-md:mt-0">
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="w-full">
+        <!-- section container -->
+        <div class="w-5xl mx-auto flex flex-col  pt-20 max-w-full max-lg:px-6">
+                <p class="text-sm uppercase text-gray-400 font-normal font-abel text-center tracking-[40%] leading-7">Service</p>
+                <h2 class="text-[53px] font-normal text-black font-abel text-center leading-7 mt-5 mb-15 max-sm:text-[36px] max-sm:leading-10">Our Vison & Our Goal</h2>
+            <div class="flex justify-between space-x-12 max-lg:flex-col max-lg:items-center max-lg:space-x-0 max-lg:space-y-10">
+                <!-- card -->
+                <div class="w-1/3 rounded-4xl pt-7 shadow-2xl transition-transform hover:scale-105 duration-300 max-lg:w-3/4 max-md:w-full">
+                    <div class="size-[76.46px] mx-auto"><img src="./assets/Activity.png" alt="Activity.png" class="size-[100%] object-contain"></div>
+                    <h3 class="text-[36px] font-normal text-black font-abel text-center leading-7 my-7">Graphic Design</h3>
+                    <p class="text-lg font-normal text-black font-abel text-center leading-7 px-10 max-sm:px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <div class="flex justify-center">
+                        <button class="w-[162px] h-[48px] text-lg font-medium my-7 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Learn More</button>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="w-1/3 rounded-4xl pt-7 shadow-2xl transition-transform hover:scale-105 duration-300 max-lg:w-3/4 max-md:w-full">
+                    <div class="size-[76.46px] mx-auto"><img src="./assets/Video.png" alt="Video.png" class="size-[100%] object-contain"></div>
+                    <h3 class="text-[36px] font-normal text-black font-abel text-center leading-7 my-7">Video Editing</h3>
+                    <p class="text-lg font-normal text-black font-abel text-center leading-7 px-10 max-sm:px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <div class="flex justify-center">
+                        <button class="w-[162px] h-[48px] text-lg font-medium my-7 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Learn More</button>
+                    </div>
+                </div>
+                <!-- card -->
+                <div class="w-1/3 rounded-4xl pt-7 shadow-2xl transition-transform hover:scale-105 duration-300 max-lg:w-3/4 max-md:w-full">
+                    <div class="size-[76.46px] mx-auto"><img src="./assets/Chart.png" alt="Chart.png" class="size-[100%] object-contain"></div>
+                    <h3 class="text-[36px] font-normal text-black font-abel text-center leading-7 my-7">Digital Marketing</h3>
+                    <p class="text-lg font-normal text-black font-abel text-center leading-7 px-10 max-sm:px-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.</p>
+                    <div class="flex justify-center">
+                        <button class="w-[162px] h-[48px] text-lg font-medium my-7 bg-orange-500 text-white rounded-lg hover:bg-orange-600">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- explorer section -->
+    <section class="w-full">
+        <dic class="w-5xl mx-auto flex pt-20 max-w-full max-lg:px-6 max-md:flex-col">
+            <div class="w-5/12  flex flex-col relative max-md:w-full">
+                <div class="">
+                    <h2 class="text-2xl font-medium text-[#1E0E62] font-poppins leading-8 mb-15">Many Blocks and<br> Components</h2>
+                    <p class="text-[16px] font-regular text-gray-400 leading-8.5 w-10/12">Startup Framework contains components and complex blocks which can easily be integrated into almost any design. </p>
+                </div>
+                <button class="absolute bottom-0 left-0 w-[132px] h-[48px] border-2 border-gray-300 rounded-full text-md hover:border-orange-400 hover:text-orange-400 transition-colors max-md:static max-md:mt-8">Explorer</button>
+            </div>
+            <div class="w-7/12 max-md:w-full max-md:mt-10"><img src="./assets/Explorer.png" alt="Explorer" class="size-[100%] object-cover transition-transform duration-300 hover:scale-105"></div>
+        </dic>
+    </section>
+    <!-- about us section -->
+    <section class="w-full">
+        <div class="w-5xl mx-auto pt-20 max-w-full max-lg:px-6">
+                <p class="text-sm uppercase text-gray-400 font-normal font-abel text-center tracking-[40%] leading-7">Testimonial</p>
+                <h2 class="text-[53px] font-normal text-black font-abel text-center leading-7 mt-5 mb-15 max-sm:text-[36px] max-sm:leading-10">What Clients say about us</h2>
+                <!-- card container -->
+            <div class="w-full flex flex-wrap mt-15">
+                <!-- card -->
+                <div class="w-1/2 h-[237px] p-5 flex flex-row max-lg:h-auto max-md:w-full max-sm:p-3">
+                    <div class="w-1/5 max-sm:mr-3">
+                        <div class="size-[70px]">
+                            <img src="./assets/about-1.png" alt="about-us-pic" class="size-[100%] object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                    </div>
+                    <div class="w-4/5 relative">
+                        <p class="text-lg leading-7 text-black font-medium font-sans pr-10 max-sm:pr-0">Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support</p>
+                        <p class="absolute bottom-0 uppercase text-sm font-semibold text-gray-400 leading-7 tracking-[20%] max-lg:static max-lg:mt-3">Rayhan Curran</p>
+                    </div>
+                </div>
+                                <!-- card -->
+                <div class="w-1/2 h-[237px] p-5 flex flex-row max-lg:h-auto max-md:w-full max-sm:p-3">
+                    <div class="w-1/5 max-sm:mr-3">
+                        <div class="size-[70px]">
+                            <img src="./assets/about-2.png" alt="about-us-pic" class="size-[100%] object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                    </div>
+                    <div class="w-4/5 relative">
+                        <p class="text-lg leading-7 text-black font-medium font-sans pr-10 max-sm:pr-0">As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website</p>
+                        <p class="absolute bottom-0 uppercase text-sm font-semibold text-gray-400 leading-7 tracking-[20%] max-lg:static max-lg:mt-3">Kayley Frame</p>
+                    </div>
+                </div>
+                                <!-- card -->
+                <div class="w-1/2 h-[237px] p-5 flex flex-row max-lg:h-auto max-md:w-full max-sm:p-3">
+                    <div class="w-1/5 max-sm:mr-3">
+                        <div class="size-[70px]">
+                            <img src="./assets/about-3.png" alt="about-us-pic" class="size-[100%] object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                    </div>
+                    <div class="w-4/5 relative">
+                        <p class="text-lg leading-7 text-black font-medium font-sans pr-10 max-sm:pr-0">The most important part of the Startup Framework is the samples</p>
+                        <p class="absolute bottom-0 uppercase text-sm font-semibold text-gray-400 leading-7 tracking-[20%] max-lg:static max-lg:mt-3">Gene Whitfield</p>
+                    </div>
+                </div>
+                                <!-- card -->
+                <div class="w-1/2 h-[237px] p-5 flex flex-row max-lg:h-auto max-md:w-full max-sm:p-3">
+                    <div class="w-1/5 max-sm:mr-3">
+                        <div class="size-[70px]">
+                            <img src="./assets/about-4.png" alt="about-us-pic" class="size-[100%] object-cover transition-transform duration-300 hover:scale-105">
+                        </div>
+                    </div>
+                    <div class="w-4/5 relative">
+                        <p class="text-lg leading-7 text-black font-medium font-sans pr-10 max-sm:pr-0">I’ve built my website with Startup just in one day, and it was ready-to-go.</p>
+                        <p class="absolute bottom-0 uppercase text-sm font-semibold text-gray-400 leading-7 tracking-[20%] max-lg:static max-lg:mt-3">Allan Kim</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+    <section class="w-full">
+        <div class="w-5xl mx-auto mt-20 max-w-full max-lg:px-6">
+                <p class="text-sm uppercase text-gray-400 font-normal font-abel text-center tracking-[40%] leading-7">Our team</p>
+                <h2 class="text-[53px] font-normal text-black font-abel text-center leading-7 mt-5 mb-15 max-sm:text-[36px] max-sm:leading-10">Meet The Team</h2>
+                <div class="w-full flex space-x-5 max-md:flex-col max-md:items-center max-md:space-x-0 max-md:space-y-6">
+                    <!-- designer -->
+                    <div class="w-4/12 border-2 border-gray-200 rounded-lg hover:scale-105 transition-transform duration-300 max-md:w-3/4 max-sm:w-full">
+                        <div class="px-5 py-7">
+                            <div class="size-30 mx-auto"><img src="./assets/designer-1.png" alt="designer" class="size-[100%] object-cover"></div>
+                            <h3 class="text-[22px] font-sans leading-8 text-black font-medium text-center my-4">Vanessa Laird</h3>
+                            <p class="text-sm font-sans leading-7 text-gray-400 uppercase tracking-[10%] text-center">UI Designer</p>
+                        </div>
+                        <div class="w-full flex">
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-x-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                        </div>
+                    </div>
+                    <!-- designer -->
+                    <div class="w-4/12 border-2 border-gray-200 rounded-lg hover:scale-105 transition-transform duration-300 max-md:w-3/4 max-sm:w-full">
+                        <div class="px-5 py-7">
+                            <div class="size-30 mx-auto"><img src="./assets/designer-2.png" alt="designer" class="size-[100%] object-cover"></div>
+                            <h3 class="text-[22px] font-sans leading-8 text-black font-medium text-center my-4">Mason Campbell</h3>
+                            <p class="text-sm font-sans leading-7 text-gray-400 uppercase tracking-[10%] text-center">UI Designer</p>
+                        </div>
+                        <div class="w-full flex">
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-x-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                        </div>
+                    </div>
+                    <!-- designer -->
+                    <div class="w-4/12 border-2 border-gray-200 rounded-lg hover:scale-105 transition-transform duration-300 max-md:w-3/4 max-sm:w-full">
+                        <div class="px-5 py-7">
+                            <div class="size-30 mx-auto"><img src="./assets/designer-3.png" alt="designer" class="size-[100%] object-cover"></div>
+                            <h3 class="text-[22px] font-sans leading-8 text-black font-medium text-center my-4">Irea Evans</h3>
+                            <p class="text-sm font-sans leading-7 text-gray-400 uppercase tracking-[10%] text-center">Client Manager</p>
+                        </div>
+                        <div class="w-full flex">
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-x-2 border-gray-200"></div>
+                            <div class="w-4/12 h-15 border-t-2 border-gray-200"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- e-mail section -->
+    <section class="w-full">
+        <div class="w-5xl mx-auto mt-20 max-w-full max-lg:px-6">
+                <p class="text-sm uppercase text-gray-400 font-normal font-abel text-center tracking-[40%] leading-7">Our team</p>
+                <h2 class="text-[53px] font-normal text-black font-abel text-center leading-7 mt-5 mb-15 max-sm:text-[36px] max-sm:leading-10">Subscribe Our Newsleter</h2>
+                <div class="w-full flex flex-row mt-15 max-md:flex-col">
+                    <div class="w-5/12 p-20 max-lg:p-10 max-md:w-1/2 max-md:mx-auto max-md:p-0 max-sm:w-2/3"><img src="/assets/email.png" alt="" class="size-[100%] object-contain"></div>
+                    <div class="w-7/12 max-md:w-full">
+                        <h4 class="text-lg font-normal text-black leadin-7 mt-20 max-md:mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</h4>
+                        <input class="w-full h-13 outline-orange-600 border-2 border-gray-300 rounded-full my-10 texl-xl placeholder:text-xl placeholder:text-black placeholder:font-sans placeholder:font-normal  pl-15 shadow-2xl" type="email" placeholder="Your E-mail here...">
+                    <button class="w-full h-12 bg-orange-600 text-white font-normal py-2 px-4 rounded-xl hover:bg-orange-700  transition-transform duration-300 hover:scale-105">Subscribe Our Newsletter</button>
+                </div>
+                </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="w-full ">
+        <div class="w-5xl mx-auto  max-w-full max-lg:px-6">
+            <div class="h-[23px] flex flex-wrap border-b-1 border-gray-200 py-15 max-lg:h-auto">
+                <div class="w-1/2 max-lg:w-full max-lg:flow-root">
+                    <div class="w-[111px] float-left max-lg:float-none max-lg:mx-auto">
+                        <img src="./assets/Logo.png" alt="" class="size-[100%] object-cover">
+                    </div>
+                    <div class="float-right max-lg:float-none max-lg:mt-4">
+                        <h5 class="text-sm text-[#1E0E62] font-sans font-normal leading-7 text-right max-lg:text-center">&copy;2020 Epixelab. All rights reserved.</h5>
+                    </div>
+                </div>
+                <div class="w-1/2 max-lg:w-full max-lg:flow-root max-lg:mt-4">
+                    <ul class="flex text-sm text-[#1E0E62] font-sans font-normal leading-7  float-right max-lg:float-none max-lg:flex-wrap max-lg:justify-center">
+                        <li class="ml-5"><a href="#" class="hover:text-orange-600 transition-colors">Portfolio</a></li>
+                        <li class="ml-5"><a href="#" class="hover:text-orange-600 transition-colors">How it Works</a></li>
+                        <li class="ml-5"><a href="#" class="hover:text-orange-600 transition-colors">Pricing</a></li>
+                        <li class="ml-5"><a href="#" class="hover:text-orange-600 transition-colors">About</a></li>
+                        <li class="ml-5"><a href="#" class="hover:text-orange-600 transition-colors">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full">
+                <h6 class="text-sm font-normal font-sans text-gray-400 py-7 text-center">Startup Framework contains components and complex blocks which can easily be integrated into almost any design. </h6>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // mobile nav toggle
+        (function () {
+            var toggle = document.getElementById('nav-toggle');
+            var panels = document.querySelectorAll('[data-nav-panel]');
+            var icons = toggle.querySelectorAll('svg');
+            var wide = window.matchMedia('(min-width: 768px)');
+
+            function setOpen(open) {
+                panels.forEach(function (p) { p.classList.toggle('max-md:hidden', !open); });
+                toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+                icons[0].classList.toggle('hidden', open);
+                icons[1].classList.toggle('hidden', !open);
+            }
+
+            toggle.addEventListener('click', function () {
+                setOpen(toggle.getAttribute('aria-expanded') !== 'true');
+            });
+            // close the dropdown after a link is chosen
+            panels.forEach(function (p) {
+                p.querySelectorAll('a').forEach(function (a) {
+                    a.addEventListener('click', function () { setOpen(false); });
+                });
+            });
+            // reset when the screen grows past the mobile breakpoint
+            wide.addEventListener('change', function (e) { if (e.matches) setOpen(false); });
+        })();
+    </script>
+</body>
+</html>
