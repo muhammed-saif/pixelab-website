@@ -910,6 +910,9 @@
     }
   }
   @media (width >= 64rem) {
+    .lg\:block {
+      display: block;
+    }
     .lg\:w-5xl {
       width: var(--container-5xl);
     }
